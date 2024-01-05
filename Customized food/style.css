@@ -1,0 +1,323 @@
+html{
+    cursor: url("../Assets/cursor.svg"), auto;
+    background-color: #000;
+}
+/* custom cursor */
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #525252; 
+    border-radius: 46px;    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7a7a7a; 
+  }
+
+
+
+
+body{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Archivo', sans-serif;
+}
+img,
+svg {
+  vertical-align: middle;
+  border-radius: 24px;
+}
+h5{
+    font-size: 2.5rem;
+    font-weight: 400;
+    background: -webkit-linear-gradient(#e3e3e3, #9f9f9f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h4{
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: left;
+    background: -webkit-linear-gradient(#e3e3e3, #9f9f9f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3rem;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    background: -webkit-linear-gradient(#e3e3e3, #9f9f9f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+li{
+    font-size: 1.5rem;
+    font-weight: 400;
+    background: -webkit-linear-gradient(#e3e3e3, #9f9f9f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#nav{
+    width: 75%;
+    height: 80px;
+    margin: 0px auto;
+    background-color: transparent;
+    display: none;
+}
+.navbar-inner {
+    background:transparent;
+}
+a{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 48px;
+    color: #fafafa;
+}
+
+
+/* scroll button */
+
+#myBtn {
+    width: 5rem;
+    height: 5rem;
+    display: hidden; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 5rem; /* Place the button at the bottom of the page */
+    right: 5rem; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #3d3d3d; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 1.5rem; /* Some padding */
+    border-radius: 80px; /* Rounded corners */
+    font-size: 1.5rem; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+
+
+
+
+
+
+
+#navbutton{
+    width: 105px;
+    height: 41px;
+    background-color: transparent;
+    opacity: 0.48;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+}
+.hero{
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("../Assets/Food-banner.jpg");
+    
+}
+
+
+
+
+
+
+.main{
+    width: 75%;
+
+}
+.overview{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+.projectoverview{
+    width: 45%;
+}
+.objectives{
+    width: 45%;
+}
+.mockup{
+    margin-top: 16rem;
+    text-align: center;
+    
+}
+.mockup img{
+    width: 100%;
+    align-self: center;
+}
+
+
+
+/* competetive */
+
+.initial{
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    justify-content: center;
+}
+.initial h4{
+    font-size: 5rem;
+    text-align: left;
+}
+.initial-img {
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+/* research */
+
+
+.main{
+    width: 75%;
+
+}
+.research{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+.projectoverview{
+    width: 45%;
+}
+.objectives{
+    width: 45%;
+}
+.mockup{
+    margin-top: 16rem;
+    text-align: center;
+    
+}
+.mockup img{
+    width: 100%;
+    align-self: center;
+}
+
+
+/* Research */
+
+.research-text{
+    text-align: left;
+    width: 45%;
+}
+.research-img{
+    text-align: center;
+    height: 400px;
+    width: 45%;
+}
+.research-img img{
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* user problems */
+.user-problems{
+    margin-top: 10rem;
+    display: flex;
+    height: 30rem;
+    /* background-color: #007a5e; */
+    justify-content: space-between;
+}
+
+.problem1{
+    display: flex;
+    gap: 1rem;
+    width: 45%;
+    height: 100%;
+
+    flex-direction: column;
+}
+.problem1 img{
+    border-radius: 1.5rem !important;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.user-problem-img{
+    height: 80%;
+}
+.user-problem-img img{
+    border-radius: 1.5rem !important;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.socials{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    }
+    .socials a{
+        /* font-size: 1.5rem; */
+        font-size: 1.25vw;
+        margin-top: 8rem;
+        margin-bottom: 10rem;
+        text-decoration: none;
+        background: -webkit-linear-gradient(#e3e3e3, #9f9f9f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #chat{
+        font-weight: 700;
+        background: -webkit-linear-gradient(#007a5e, #00BF93);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .socials a:hover{
+        /* font-size: 1.5rem; */
+        /* margin-top: auto;
+        margin-bottom: auto; */
+        transition-duration: s;
+        text-decoration: underline;
+        background: -webkit-linear-gradient(#9f9f9f, #e3e3e3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #bottom{
+        /* font-size: 2.5rem; */
+        font-size: 2.083vw;
+        color: #696969;
+    }
