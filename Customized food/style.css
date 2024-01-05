@@ -182,12 +182,12 @@ a{
     justify-content: center;
 }
 .initial h4{
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: left;
 }
 .initial-img {
     text-align: center;
-    width: 100%;
+    width: 50%;
 }
 
 
