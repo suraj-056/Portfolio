@@ -35,6 +35,9 @@ body{
     align-items: center;
     font-family: 'Archivo', sans-serif;
 }
+#research-img{
+    width: 50%;
+}
 img,
 svg {
   vertical-align: middle;
