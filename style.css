@@ -969,7 +969,7 @@ main{
   } */
 
 #two{
-    width: min-content;
+    width: max-content;
     color: #fff;
     background-color: transparent;
     border: none;
@@ -1176,9 +1176,9 @@ span{
 a{
     font-style: none;
     text-decoration: none;
-    font-size: 1.042vw;
+    font-size: 3vw;
     /* font-size: 1.25rem; */
-    font-weight: 600;
+    font-weight: 400;
     color: #fff;
 
 }
